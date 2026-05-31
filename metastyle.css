@@ -1,0 +1,33 @@
+.open-sans-regular {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+body {
+    font-family: "Open Sans";
+}
+
+#homepage {
+  text-align: center;
+}
+
+#croads {
+  padding-left: 0;
+  margin-left: 0;
+  list-style-position: inside;
+  list-style-type: none;
+}
+
+.timeline-entry {
+  border-radius: 25px;
+  background-color: rgb(0, 255, 204);
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 25px;
+  text-align: center;
+
+}
