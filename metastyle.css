@@ -49,3 +49,41 @@ body {
   width:300px;
   height: auto;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  background-color: #00ff99;
+  border-radius: 4px;
+}
+
+
+.nav-links a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 8px 12px;
+}
+
+.nav-links a:hover {
+  background-color: #048855;
+  border-radius: 4px;
+}
