@@ -55,6 +55,12 @@ body {
   padding: 0;
 }
 
+.pet-div img {
+    float: right;
+    width: 200px;
+    margin: 0 0 10px 20px;
+}
+
 
 .top-nav {
   justify-content: center;
